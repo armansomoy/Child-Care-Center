@@ -55,7 +55,7 @@ body {
     z-index: 999;
 }
 
-@keyframes menu {
+/* @keyframes menu {
     from {
         top: -50px;
     }
@@ -63,7 +63,7 @@ body {
     to {
         top: 0px;
     }
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffff !important;
@@ -192,6 +192,7 @@ body {
 #service {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: rgb(253, 238, 251);
 }
 
 .service-item {
@@ -201,6 +202,7 @@ body {
     border: 1px solid #8b8b8b;
     border-bottom: 5px solid #838282;
     transition: all linear .3s;
+    background-color: #fff;
 }
 
 .service-item:hover {
@@ -478,8 +480,8 @@ body {
 
 /*===== sign part css start =====*/
 #sign {
-    background: rgb(0, 255, 235);
-    background: linear-gradient(90deg, rgba(0, 255, 235, 1) 8%, rgba(0, 15, 111, 1) 100%);
+    background: rgb(2, 80, 96);
+    background: linear-gradient(90deg, rgba(2, 80, 96, 1) 0%, rgba(0, 163, 217, 1) 86%);
     padding-top: 47px;
     padding-bottom: 47px;
 }
@@ -511,18 +513,18 @@ body {
     color: #ffffff;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    padding: 18px 50px;
+    padding: 16px 50px;
     border-radius: 3px;
-    background: rgb(0, 255, 235);
+    background: #02506a;
     text-transform: uppercase;
     transition: all 0.3s;
-    border: 1px solid rgb(0, 255, 235);
+    border: 1px solid #02506a;
 }
 
 #sign .pur-right a:hover {
     color: #fff;
-    background: rgb(0, 255, 235);
-    background: linear-gradient(90deg, rgba(0, 255, 235, 1) 8%, rgba(0, 15, 111, 1) 100%);
+    background: rgb(2, 80, 96);
+    background: linear-gradient(90deg, rgba(2, 80, 96, 1) 0%, rgba(0, 163, 217, 1) 86%);
     border: 1px solid #02506a;
 
 }
@@ -583,8 +585,8 @@ body {
 
 /*===== counter part css ends =====*/
 #counter {
-    background: rgb(0, 9, 106);
-    background: linear-gradient(90deg, rgba(0, 9, 106, 1) 1%, rgba(0, 172, 255, 1) 82%);
+    background: rgb(2, 80, 96);
+    background: linear-gradient(90deg, rgba(2, 80, 96, 1) 0%, rgba(0, 163, 217, 1) 86%);
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -615,203 +617,6 @@ body {
 /*===== counter part css ends =====*/
 
 
-/*===== blog part css start =====*/
-
-#blog {
-    padding-top: 80px;
-    padding-bottom: 140px;
-    position: relative;
-}
-
-.card-title {
-    color: #555555;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    transition: all linear .3s;
-}
-
-.card-text {
-    color: #8c8c8c;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-transform: capitalize;
-    line-height: 22px;
-    transition: all linear .3s;
-}
-
-.card-body a {
-    color: #c7b299;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-transform: capitalize;
-    transition: all linear .3s;
-}
-
-.card-body a i {
-    margin-left: 10px;
-    font-size: 12px;
-}
-
-
-.card {
-    position: relative;
-    transition: all linear .3s;
-}
-
-.date {
-    position: absolute;
-    width: 50px;
-    top: 20px;
-    left: 20px;
-    text-align: center;
-    border-radius: 3px;
-}
-
-.top {
-    color: #ffffff;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    height: 35px;
-    line-height: 35px;
-    background: #363636;
-    transition: all linear .3s;
-}
-
-.bottom {
-    color: #ffffff;
-    font-size: 12px;
-    transition: all linear .3s;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    height: 25px;
-    line-height: 25px;
-    background: #252525;
-}
-
-.blog-img {
-    position: relative;
-}
-
-.blog-img .blog-over {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.71);
-    opacity: 0;
-    transition: all linear .3s;
-}
-
-.card:hover .blog-over {
-    opacity: 1;
-}
-
-.card:hover .top {
-    background: #c7b299;
-}
-
-.card:hover .bottom {
-    background: #a48d72;
-}
-
-.card:hover .card-title {
-    color: #c7b299;
-}
-
-.card:hover .card-text {
-    color: #ffffff;
-}
-
-.card:hover a {
-    color: #c7b299;
-}
-
-.card:hover {
-    background: #362f2d;
-}
-
-.slick-center .blog-over {
-    opacity: 1;
-}
-
-.slick-center .top {
-    background: #c7b299;
-}
-
-.slick-center .bottom {
-    background: #a48d72;
-}
-
-.slick-center .card-title {
-    color: #c7b299;
-}
-
-.slick-center .card-text {
-    color: #ffffff;
-}
-
-.slick-center a {
-    color: #c7b299;
-}
-
-.slick-center .card {
-    background: #362f2d;
-}
-
-#blog .right {
-    color: #d1d1d1;
-    font-size: 12px;
-    height: 25px;
-    width: 25px;
-    line-height: 25px;
-    border-radius: 50%;
-    border: 1px solid #d1d1d1;
-    text-align: center;
-    cursor: pointer;
-}
-
-#blog .left {
-    color: #d1d1d1;
-    font-size: 12px;
-    height: 25px;
-    width: 25px;
-    line-height: 25px;
-    border-radius: 50%;
-    border: 1px solid #d1d1d1;
-    text-align: center;
-    cursor: pointer;
-}
-
-#blog .left:hover {
-    color: #cab79f;
-    border: 1px solid #cab79f;
-}
-
-#blog .right:hover {
-    color: #cab79f;
-    border: 1px solid #cab79f;
-}
-
-#blog .right {
-    position: absolute;
-    bottom: 80px;
-    left: 48%;
-}
-
-#blog .left {
-    position: absolute;
-    bottom: 80px;
-    right: 48%;
-}
-
-/*===== blog part css ends =====*/
-
 /*===== client part css start =====*/
 
 #client {
@@ -820,18 +625,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 50px;
-    padding-bottom: 130px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     position: relative;
 }
-#client .client-head h2{
+
+#client .client-head h2 {
     color: #fff;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
     padding-bottom: 50px;
-    position:  relative;
+    position: relative;
     z-index: 999;
 }
 
@@ -853,208 +659,20 @@ body {
 
 /*===== client part css ends =====*/
 
-/*===== footer part css start =====*/
-#footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background: #191919;
-}
-
-.log_part p {
-    color: #555555;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 30px;
-}
-
-.log_part a {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-.log_part a i {
-    margin-left: 10px;
-    font-size: 12px;
-}
-
-.fot-recent h3 {
-    color: #ffff;
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-}
-
-.fot-recent .one {
-    border-bottom: 1px solid #363636;
-}
-
-.fot-recent .one h5 {
-    color: #363636;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-recent .one p {
-    color: #555555;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-.fot-recent .two {
-    border-bottom: 1px solid #363636;
-}
-
-.fot-recent .two h5 {
-    color: #ffff;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-recent .two p {
-    color: #c7b299;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-.fot-recent .three h5 {
-    color: #363636;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-recent .three p {
-    color: #555555;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 5px;
-}
-
-.fot-twitter h3 {
-    color: #ffff;
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-}
-
-.fot-twitter .one {
-    border-bottom: 1px solid #363636;
-}
-
-.fot-twitter .one span {
-    color: #00bff3;
-}
-
-.fot-twitter .one h6 {
-    color: #555555;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-twitter .one p {
-    color: #363636;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-
-.fot-twitter .two {
-    border-bottom: 1px solid #363636;
-}
-
-.fot-twitter .two span {
-    color: #00bff3;
-}
-
-.fot-twitter .two h6 {
-    color: #555555;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-twitter .two p {
-    color: #363636;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-
-.fot-twitter .three h6 {
-    color: #555555;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-twitter .three a {
-    color: #959595;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-}
-
-.fot-twitter .three p {
-    color: #363636;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-
-.fot-img h3 {
-    color: #ffff;
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-
-.footer-img {
-    padding-bottom: 10px;
-}
-
-/*===== footer part css ends =====*/
 
 /*===== copyright part css start =====*/
 #copyright {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background: #111111;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background: #2c383b
 }
 
 #copyright p {
-    color: #555555;
+    color: #fff;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    line-height: 50px;
 }
 
 #copyright .privacy {
@@ -1062,7 +680,7 @@ body {
 }
 
 #copyright a {
-    color: #555555;
+    color: #acacac;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -1170,11 +788,184 @@ body {
 
 /* About page */
 
-.about-banner h1{
-    padding-top: 300px;
+#about-banner h1 {
+    padding-top: 250px;
     font-size: 52px;
     color: #ffffff;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 14px;
+}
+
+#about-banner {
+    background: url(../images/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+#about-banner .banner_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+}
+
+#about-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about-part .about-first-part {
+    padding-bottom: 80px;
+}
+
+#about-part .about-img img {
+    width: 100%;
+}
+
+#about-part h3 {
+    color: #555555;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+#about-part p {
+    color: #615855;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+#video {
+    background: url(../images/baby.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#video:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.5);
+}
+
+.video-head {
+    position: relative;
+    z-index: 99;
+}
+
+.video-head h2 {
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.video-head p {
+    color: #ffffff;
+}
+
+.video-head i {
+    font-size: 73px;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Service page Start */
+
+#about-banner h1 {
+    padding-top: 250px;
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 14px;
+}
+
+#about-banner {
+    background: url(../images/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+#about-banner .banner_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+}
+
+#service-part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#service-part .about-first-part {
+    padding-bottom: 80px;
+}
+
+#service-part .about-img img {
+    width: 100%;
+}
+
+#service-part h3 {
+    color: #555555;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+#service-part p {
+    color: #615855;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#funds {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgb(2, 80, 96);
+    background: linear-gradient(90deg, rgba(2, 80, 96, 1) 0%, rgba(0, 163, 217, 1) 86%);
+}
+
+#funds h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
 }

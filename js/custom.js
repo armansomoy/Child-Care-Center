@@ -47,6 +47,9 @@ $(function () {
         time: 2000
     });
 
+    //video
+    $('.venobox').venobox();
+
 
 
 })
