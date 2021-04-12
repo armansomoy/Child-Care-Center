@@ -351,15 +351,15 @@ body {
 
 /*===== projects part css start =====*/
 #projects {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-#projects .projects-head {
+#projects .projects-head h2 {
     color: #615855;
     font-size: 28px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: capitalize;
     padding-bottom: 50px;
 }
@@ -724,67 +724,119 @@ body {
 
 
 
-/************* futter start **************/
+/************* footer start **************/
 
-#futter {
+#footer {
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
-
-#futter .futter_detail .logo h2 {
-    padding-top: 40px;
-    color: #ffff;
-    font-size: 26px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    line-height: 40px;
-}
-
-#futter .futter_detail p {
+#footer .footer_logo p,
+a {
     color: #8b969e;
-    font-size: 13px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
 }
 
-#futter .futter_detail span {
-    color: #fff;
+#footer .footer_logo img {
+    height: 200px;
 }
 
-#futter .futter_detail .pay img {
-    width: 90%;
-    padding-top: 30px;
-
+#footer .footer_link {
+    padding-left: 30px;
 }
 
-#futter .futter_link h4 {
+#footer .footer_link h4 {
     color: #353535;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     position: relative;
 }
 
 
-#futter .futter_link ul li {
+#footer .footer_link ul li {
     padding: 4px 0;
     list-style: none;
 }
 
-#futter .futter_link ul li a {
+#footer .footer_link ul li a {
     color: #8b969e;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     transition: all linear .3s;
 }
 
-#futter .futter_link ul li a:hover {
+#footer .footer_link ul li a:hover {
     color: #000;
     padding-left: 10px;
+}
+
+.fot-recent h3 {
+    color: #353535;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.fot-recent .one {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-recent .one h5 {
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.fot-recent .one p {
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.fot-recent .two {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-recent .two h5 {
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.fot-recent .two p {
+    color: #c7b299;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.fot-recent .three h5 {
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.fot-recent .three p {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
 }
 
 /* About page */
@@ -827,6 +879,10 @@ body {
 
 #about-part .about-img img {
     width: 100%;
+}
+
+.about-img-mobile {
+    display: none;
 }
 
 #about-part h3 {

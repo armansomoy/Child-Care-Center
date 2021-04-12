@@ -1,17 +1,18 @@
-
 /*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+
     #banner {
         height: 830px;
     }
+
     .pur-right a {
-	 margin-left: 0; 
-}
+        margin-left: 0;
+    }
+
     .pur_left p {
-	font-size: 16px;
-}
-    
+        font-size: 16px;
+    }
+
 }
 
 /*======== medium device =========*/
@@ -259,7 +260,7 @@
     }
 }
 
-/*======== Xtra small device =========*/
+/*======== Extra small device =========*/
 
 @media (max-width: 575.98px) {
     .navbar-toggler i {
@@ -287,11 +288,29 @@
     }
 
     .banner_item h3 {
-        padding-top: 150px;
+        padding-top: 200px;
+        font-size: 30px;
     }
 
     .banner_item h1 {
-        font-size: 45px;
+        font-size: 42px;
+    }
+
+    .banner_item p {
+        font-size: 14px;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #about .mob-text {
+        padding: 0px 20px;
+    }
+
+    .pur_left h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
     }
 
     #service {
@@ -314,14 +333,18 @@
         padding-bottom: 18px;
     }
 
-    .pur_left h3 {
-        font-size: 24px;
-        text-align: center;
+    .service-item {
+        height: 360px;
     }
 
-    .pur_left p {
-        font-size: 16px;
-        text-align: center;
+    #sign .pur_left h3 {
+        font-size: 17px;
+    }
+
+    #projects .projects-head h2 {
+        color: #615855;
+        font-size: 25px;
+        padding: 0px 20px 20px;
     }
 
     .pur-right {
@@ -409,13 +432,74 @@
         display: none;
     }
 
+    #footer .footer_logo {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .fot-recent {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer_link {
+        text-align: center;
+    }
+
+
     #copyright {
         padding-top: 30px;
         padding-bottom: 20px;
         background: #111111;
+        text-align: center;
     }
 
-    .pro_a a {
-        margin-left: 10px;
+    #about-part h3 {
+        font-size: 26px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
     }
+
+    #about-part p {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .about-img-mobile {
+        display: inline-block;
+    }
+
+    .mobile-extra {
+        display: none;
+    }
+
+    #about-banner h1 {
+        font-size: 42px;
+    }
+
+    #about-banner {
+        height: 450px;
+    }
+
+    #service-part h3 {
+        font-size: 26px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #service-part p {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #service-part .about-first-part {
+        padding-bottom: 30px;
+    }
+
+    #funds {
+        text-align: center;
+    }
+
 }

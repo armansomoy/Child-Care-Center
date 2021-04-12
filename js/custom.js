@@ -61,16 +61,7 @@ $(function () {
     $('.venobox').venobox();
 
 
-    //dote part js
-
-    $(window).scroll(function () {
-        var scroll = $(this).scrollTop();
-        if (scroll > 700) {
-            $(".dote").show();
-        } else {
-            $(".dote").hide();
-        }
-    });
+    
 
 
 })
