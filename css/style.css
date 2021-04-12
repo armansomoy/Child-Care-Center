@@ -52,10 +52,11 @@ body {
     position: fixed;
     animation: menu 1s;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
+    height: 110px;
 }
 
-/* @keyframes menu {
+@keyframes menu {
     from {
         top: -50px;
     }
@@ -63,7 +64,7 @@ body {
     to {
         top: 0px;
     }
-} */
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffff !important;

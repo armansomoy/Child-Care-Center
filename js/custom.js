@@ -1,5 +1,15 @@
 $(function () {
 
+    //navbar fixed
+    $(window).scroll(function () {
+        var scrolling = $(this).scrollTop();
+        if (scrolling > 200) {
+            $('.navbar').addClass('bg');
+        } else {
+            $('.navbar').removeClass('bg');
+        }
+    });
+
     $('.slider').slick({
         infinite: true,
         slidesToShow: 1,
@@ -50,6 +60,17 @@ $(function () {
     //video
     $('.venobox').venobox();
 
+
+    //dote part js
+
+    $(window).scroll(function () {
+        var scroll = $(this).scrollTop();
+        if (scroll > 700) {
+            $(".dote").show();
+        } else {
+            $(".dote").hide();
+        }
+    });
 
 
 })
