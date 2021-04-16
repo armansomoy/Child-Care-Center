@@ -144,8 +144,8 @@ body {
 }
 
 .banner_item h3 {
-    padding-top: 250px;
-    font-size: 36px;
+    padding-top: 300px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
@@ -153,20 +153,14 @@ body {
 }
 
 .banner_item h1 {
-    font-size: 52px;
+    font-size: 45px;
     color: #ffffff;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 14px;
-}
-
-.banner_item p {
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
     padding-bottom: 40px;
 }
+
+
 
 .banner_item a {
     font-size: 14px;
